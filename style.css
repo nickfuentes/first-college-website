@@ -1,0 +1,182 @@
+body 
+{
+color: #000;
+background-color: #FFF;
+font-family: Arial, Verdana, Helvetica, sans-serif; 
+font-size: 12px;
+}
+
+
+a {color: #e74c3c; font-family: Verdana, Arial, Helvetica, sans-serif; text-decoration: none}
+a:visited {color: #e74c3c; text-decoration: none}
+a:active {color: #e74c3c; text-decoration: none}
+a:hover {color: #CCCCCC; text-decoration: underline}
+
+
+h1 
+{
+font-family: Arial, Verdana, Helvetica, sans-serif; 
+font-size: 24px; 
+font-style: normal; 
+font-weight: bold;
+text-decoration: none;
+padding-left: 10px;
+text-align: left;
+}
+
+
+
+h2 
+{  
+font-family: Arial, Verdana, Helvetica, sans-serif; 
+font-size: 36px;
+font-weight: bold;
+text-decoration: none;
+padding-left: 10px;
+text-align: left;
+}
+
+
+/* If you'd like to use h3, h4, h5, etc., use the code below, and describe them accordingly. Should contain the same properties as h1 or h2 */
+h3
+{
+	
+}
+
+
+p  
+{
+font-family: Arial, Verdana, Helvetica, sans-serif; 
+font-size: 12px;
+font-style: normal; 
+font-weight: normal; 
+text-decoration: none;
+margin-top: 0px;
+padding-left: 10px;
+text-align: left;
+}
+
+
+table {
+margin-bottom: 25px;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 1.2em;
+text-align: left;
+}
+
+table, td, th {
+	padding: 10px;
+	border-collapse: collapse;
+}
+
+th {
+    color: #2c3e50;
+}
+
+table thead {
+	background-color: #e1e1e1;
+}
+
+table tbody tr {
+border-bottom: 1px dotted #e1e1e1;
+}
+
+
+/* Tell the browser to render HTML 5 elements as block */  
+header, footer, aside, nav, article {  
+        display: block;  
+    }  
+
+#header {
+position: relative;
+margin-left: auto;
+margin-right: auto;
+width: 100%; 
+max-width:1200px;
+height: auto;
+background-color: #e74c3c;
+}
+
+
+#nav {
+position: relative;
+width: 100%; 
+max-width:1200px;
+height: 40px;
+margin-left: auto;
+margin-right: auto;
+background-color: F1B627;
+border-top: 2px solid white;
+}
+
+#nav ul {
+padding-top: 10px;
+padding-left: 20px;
+margin: 0px;
+list-style-type: none;
+}  
+
+#nav li {  
+padding-right: 50px;
+padding-left: 50px;
+display: inline;
+}  
+ 
+            
+
+#nav a {color: white; font-family: Verdana, Arial, Helvetica, sans-serif;  font-size: 14px; font-weight: bold; text-decoration: none}
+#nav a:visited {color: white; text-decoration: none}
+#nav a:active {color: #666666; text-decoration: none}
+#nav a:hover {color: #666666; text-decoration: none}
+
+
+            
+#section {
+position: relative;
+width: 100%;
+max-width:1200px;
+height: auto;
+background-color: white; 
+margin-left: auto;
+margin-right: auto;
+border-top: 2px solid white;
+padding: 0 30px 0 10px;
+}
+
+
+#footer {
+position: relative;
+width: 100%; 
+max-width:1200px;
+height: 25px;
+background-color: D5001C; 
+margin-left: auto;
+margin-right: auto;
+font-size: 10px;
+padding: 10px;
+color: #FFF;
+}
+
+.sidebar
+     {
+     float: right;
+     width: 30%;
+     height: auto;
+     border: 1px white;
+     }
+     .sidebar-bottom {display: none;}
+     @media screen and (max-width: 850px) {
+     .sidebar {display: none;}
+     .sidebar-bottom
+     {
+     display: block;
+     position: relative;
+     width: 90%;
+     margin-left: auto;
+     margin-right: auto;
+     border: 1px solid black;
+     background: white;
+}
+     #nav li {display: list-item}
+     #nav {height: auto}
+}
